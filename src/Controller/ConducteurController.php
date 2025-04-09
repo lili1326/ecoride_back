@@ -11,7 +11,7 @@ final class ConducteurController extends AbstractController
     #[Route('/conducteur', name: 'app_conducteur')]
     public function index(): Response
     {
-        return $this->render('conducteur/index.html.twig', [
+        return $this->render('pages/conducteur/index.html.twig', [
             'controller_name' => 'ConducteurController',
         ]);
     }

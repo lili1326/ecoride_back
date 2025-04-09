@@ -11,7 +11,7 @@ final class PassagerController extends AbstractController
     #[Route('/passager', name: 'app_passager')]
     public function index(): Response
     {
-        return $this->render('passager/index.html.twig', [
+        return $this->render('pages/passager/index.html.twig', [
             'controller_name' => 'PassagerController',
         ]);
     }

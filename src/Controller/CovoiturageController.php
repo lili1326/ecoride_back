@@ -11,7 +11,7 @@ final class CovoiturageController extends AbstractController
     #[Route('/covoiturage', name: 'app_covoiturage')]
     public function index(): Response
     {
-        return $this->render('covoiturage/index.html.twig', [
+        return $this->render('pages/covoiturage/index.html.twig', [
             'controller_name' => 'CovoiturageController',
         ]);
     }
